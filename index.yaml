@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  l3a-connector:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-08-30T16:18:11.129163+10:00"
+    description: A Helm chart for Kubernetes
+    digest: 4c3c8b084778d011b12987c4806d6b8acdbfcf547fd7687917ce803b086b416a
+    name: l3a-connector
+    type: application
+    urls:
+    - l3a-connector-0.3.0.tgz
+    version: 0.3.0
+generated: "2023-08-30T16:18:11.128163+10:00"
