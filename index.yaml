@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  apollox-connector:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-02-14T11:14:02.911565+11:00"
+    description: A Helm chart for Kubernetes
+    digest: e7924c2584ef1c27a9191babbf1e0c248b835addaf2daa0e43be4e28c6140132
+    name: apollox-connector
+    type: application
+    urls:
+    - cex/apollox-connector-0.3.0.tgz
+    version: 0.3.0
   l3a-app:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-08-30T17:36:49.26048+10:00"
+    created: "2024-02-14T11:14:02.91029+11:00"
     description: A Helm chart for Kubernetes
     digest: c41b83e38bec36e57e3317d5503fa97c43c257eb7267ae85e2afac5974362925
     name: l3a-app
@@ -14,7 +25,7 @@ entries:
   l3a-connector:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-08-30T17:36:49.26086+10:00"
+    created: "2024-02-14T11:14:02.910631+11:00"
     description: A Helm chart for Kubernetes
     digest: 4c3c8b084778d011b12987c4806d6b8acdbfcf547fd7687917ce803b086b416a
     name: l3a-connector
@@ -22,4 +33,4 @@ entries:
     urls:
     - l3a-connector-0.3.0.tgz
     version: 0.3.0
-generated: "2023-08-30T17:36:49.259742+10:00"
+generated: "2024-02-14T11:14:02.909711+11:00"
