@@ -3,7 +3,7 @@ entries:
   apollox-connector:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-14T11:14:02.911565+11:00"
+    created: "2024-02-14T13:36:52.544322+11:00"
     description: A Helm chart for Kubernetes
     digest: e7924c2584ef1c27a9191babbf1e0c248b835addaf2daa0e43be4e28c6140132
     name: apollox-connector
@@ -14,7 +14,7 @@ entries:
   l3a-app:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-14T11:14:02.91029+11:00"
+    created: "2024-02-14T13:36:52.539734+11:00"
     description: A Helm chart for Kubernetes
     digest: c41b83e38bec36e57e3317d5503fa97c43c257eb7267ae85e2afac5974362925
     name: l3a-app
@@ -25,7 +25,7 @@ entries:
   l3a-connector:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-14T11:14:02.910631+11:00"
+    created: "2024-02-14T13:36:52.541684+11:00"
     description: A Helm chart for Kubernetes
     digest: 4c3c8b084778d011b12987c4806d6b8acdbfcf547fd7687917ce803b086b416a
     name: l3a-connector
@@ -33,4 +33,26 @@ entries:
     urls:
     - l3a-connector-0.3.0.tgz
     version: 0.3.0
-generated: "2024-02-14T11:14:02.909711+11:00"
+  streamprocessor-app:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-02-14T13:36:52.542455+11:00"
+    description: A Helm chart for Kubernetes
+    digest: 5072e680b159bc94e03b28ff3335a603fb083469be28188e8f41ee1abf8d608b
+    name: streamprocessor-app
+    type: application
+    urls:
+    - streamprocessor-app-0.1.0.tgz
+    version: 0.1.0
+  websocketserver-app:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-02-14T13:36:52.543191+11:00"
+    description: A Helm chart for Kubernetes
+    digest: 8825e52a1d2e15453839f492b70e2d1ff0bfa37e16012739e393290774618fe5
+    name: websocketserver-app
+    type: application
+    urls:
+    - websocketserver-app-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-02-14T13:36:52.539165+11:00"
