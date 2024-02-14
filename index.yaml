@@ -3,7 +3,7 @@ entries:
   apollox-connector:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-14T13:36:52.544322+11:00"
+    created: "2024-02-14T16:48:58.362985+11:00"
     description: A Helm chart for Kubernetes
     digest: e7924c2584ef1c27a9191babbf1e0c248b835addaf2daa0e43be4e28c6140132
     name: apollox-connector
@@ -11,32 +11,142 @@ entries:
     urls:
     - cex/apollox-connector-0.3.0.tgz
     version: 0.3.0
-  l3a-app:
+  binance-connector:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-14T13:36:52.539734+11:00"
+    created: "2024-02-14T16:48:58.364492+11:00"
     description: A Helm chart for Kubernetes
-    digest: c41b83e38bec36e57e3317d5503fa97c43c257eb7267ae85e2afac5974362925
-    name: l3a-app
+    digest: da11339e0dd9c22da360e3642fc68a923f794a0015569bcce56870914f2af5b6
+    name: binance-connector
     type: application
     urls:
-    - l3a-app-0.1.0.tgz
-    version: 0.1.0
-  l3a-connector:
+    - cex/binance-connector-0.3.0.tgz
+    version: 0.3.0
+  binancefutures-connector:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-14T13:36:52.541684+11:00"
+    created: "2024-02-14T16:48:58.365174+11:00"
     description: A Helm chart for Kubernetes
-    digest: 4c3c8b084778d011b12987c4806d6b8acdbfcf547fd7687917ce803b086b416a
-    name: l3a-connector
+    digest: 163e80643ac8f87c6dea8a89a2ea1304a7163e073755376d4c0b332e659040d2
+    name: binancefutures-connector
     type: application
     urls:
-    - l3a-connector-0.3.0.tgz
+    - cex/binancefutures-connector-0.3.0.tgz
+    version: 0.3.0
+  bybit-connector:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-02-14T16:48:58.365842+11:00"
+    description: A Helm chart for Kubernetes
+    digest: 5abe85b3b7dda1f38b9a0be0987ab750a87cf3076f28a1d499d67e0e4c237f7a
+    name: bybit-connector
+    type: application
+    urls:
+    - cex/bybit-connector-0.3.0.tgz
+    version: 0.3.0
+  coinbase-connector:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-02-14T16:48:58.366561+11:00"
+    description: A Helm chart for Kubernetes
+    digest: 9cf53da4baee4cfd61f22652e7322532764e6642481d9555dc68b83ee1c4cd9a
+    name: coinbase-connector
+    type: application
+    urls:
+    - cex/coinbase-connector-0.3.0.tgz
+    version: 0.3.0
+  deribit-connector:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-02-14T16:48:58.367281+11:00"
+    description: A Helm chart for Kubernetes
+    digest: 7419a62bd98fc0140fbcc884181782f3134f3a8b37156096196fb17514ad149d
+    name: deribit-connector
+    type: application
+    urls:
+    - cex/deribit-connector-0.3.0.tgz
+    version: 0.3.0
+  dydx-connector:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-02-14T16:48:58.368045+11:00"
+    description: A Helm chart for Kubernetes
+    digest: 005b09d9413e7c640f712bd6eb4b6854143cd36257495506161ca6fee6063857
+    name: dydx-connector
+    type: application
+    urls:
+    - cex/dydx-connector-0.3.0.tgz
+    version: 0.3.0
+  ethereum-connector:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-02-14T16:48:58.368697+11:00"
+    description: A Helm chart for Kubernetes
+    digest: 8b6c9dd0e4e1800ae363a0d370fe0d42b7fa0a7e6d74baabbcd5075c937b9a49
+    name: ethereum-connector
+    type: application
+    urls:
+    - cex/ethereum-connector-0.3.0.tgz
+    version: 0.3.0
+  ftx-connector:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-02-14T16:48:58.369473+11:00"
+    description: A Helm chart for Kubernetes
+    digest: d445cfc39afc1df6aab024f97638a96d8d91f9c5bef929300f16fcd8f4e3dc13
+    name: ftx-connector
+    type: application
+    urls:
+    - cex/ftx-connector-0.3.0.tgz
+    version: 0.3.0
+  gemini-connector:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-02-14T16:48:58.371112+11:00"
+    description: A Helm chart for Kubernetes
+    digest: 48e180c9e4d1a054609cb937fb04afa646cbc17e55909545126cea7d463d8d4b
+    name: gemini-connector
+    type: application
+    urls:
+    - cex/gemini-connector-0.3.0.tgz
+    version: 0.3.0
+  krafken-connector:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-02-14T16:48:58.372684+11:00"
+    description: A Helm chart for Kubernetes
+    digest: 81f439a81a2bf02cc5cc016e286dacdd612a505a6bcef1f2c0f509d3c1859234
+    name: krafken-connector
+    type: application
+    urls:
+    - cex/krafken-connector-0.3.0.tgz
+    version: 0.3.0
+  krakenfutures-connector:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-02-14T16:48:58.379429+11:00"
+    description: A Helm chart for Kubernetes
+    digest: 3acd833620c46779c77afad8d3df8247722fd320fefa733bbf409e885061809f
+    name: krakenfutures-connector
+    type: application
+    urls:
+    - cex/krakenfutures-connector-0.3.0.tgz
+    version: 0.3.0
+  phemex-connector:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-02-14T16:48:58.37987+11:00"
+    description: A Helm chart for Kubernetes
+    digest: d4bfaa430750c48679f00bd8184973a791630c8c41dd8f73bfc1ea06af7f46f6
+    name: phemex-connector
+    type: application
+    urls:
+    - cex/phemex-connector-0.3.0.tgz
     version: 0.3.0
   streamprocessor-app:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-14T13:36:52.542455+11:00"
+    created: "2024-02-14T16:48:58.361206+11:00"
     description: A Helm chart for Kubernetes
     digest: 5072e680b159bc94e03b28ff3335a603fb083469be28188e8f41ee1abf8d608b
     name: streamprocessor-app
@@ -47,7 +157,7 @@ entries:
   websocketserver-app:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-02-14T13:36:52.543191+11:00"
+    created: "2024-02-14T16:48:58.362278+11:00"
     description: A Helm chart for Kubernetes
     digest: 8825e52a1d2e15453839f492b70e2d1ff0bfa37e16012739e393290774618fe5
     name: websocketserver-app
@@ -55,4 +165,4 @@ entries:
     urls:
     - websocketserver-app-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-14T13:36:52.539165+11:00"
+generated: "2024-02-14T16:48:58.359204+11:00"
